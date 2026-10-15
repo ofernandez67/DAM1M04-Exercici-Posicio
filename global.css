@@ -1,3 +1,4 @@
+/*CSS general*/
 header{
     background-color:aqua;
     color: black;
@@ -7,7 +8,7 @@ header{
     padding: 10px;
     left: 0;
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     font-family: "Isometra", serif;
 }
 a{
@@ -16,4 +17,24 @@ a{
 }
 a:hover{
     color: red;
+}
+footer{
+    background-color: rgb(59, 59, 59);
+    color: darkgray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    font-family: "Isometra", serif;
+}
+/*CSS index.html*/
+.presentacion{
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(226, 75, 223);
+    font-family: "Isometra", serif;
+    text-align: center;
 }
