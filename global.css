@@ -181,3 +181,66 @@ footer{
     margin-top: 20px;
     border-radius: 10px;
 }
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .presentacion,
+    .productes-main,
+    .contacte-main{
+        padding: 15px;
+    }
+
+    .colleccions{
+        flex-direction: column;
+    }
+
+    .beneficis{
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .filtres{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .filtre img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .productes{
+        flex-direction: column;
+    }
+
+    .producte{
+        flex: 1 1 100%;
+    }
+
+    .contacte-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .mapa{
+        height: 200px;
+    }
+
+    .hero{
+        padding: 30px 15px;
+    }
+
+    .hero h1{
+        font-size: 2rem;
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+}
